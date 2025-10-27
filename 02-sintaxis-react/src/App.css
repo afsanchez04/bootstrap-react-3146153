@@ -1,0 +1,16 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body{
+  background-color: rgb(3, 3, 37);
+}
+h1,h2,h3,h4,h5,h6{
+  color: white;
+}
+p{
+  color: rgb(196, 196, 196);
+}
