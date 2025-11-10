@@ -1,4 +1,71 @@
-.title{
-  font-size: 6rem;
+.general{
+  width: 100%;
+  padding: 16px;
+  background: #0d1224;
+  border-radius: 16px;
   color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
+
+.informacion{
+  display: flex;
+  gap: 12px;
+}
+
+.icono{
+  background: #cde5db;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  width: 24px;
+  height: 24px;
+  background: #1a2d2b;
+  border-radius: 6px;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.titulo{
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 1;
+  margin-bottom: 2px;
+}
+
+.remove{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove1 {
+  border: none;
+  color: #bfc4d4;
+  font-size: 12px;
+  cursor: pointer;
+}
+.boton{
+  position: relative;
+  width: 42px;
+  height: 22px;
+  display: flex;
+  inset: 0;
+  background: #d93b3b;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+
